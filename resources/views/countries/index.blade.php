@@ -28,10 +28,11 @@
             </tbody>
         </table>
     </div>
+    <div class="col-lg-12">
+        <h3 id="padding">Įvesti naują šalį</h3>
+    </div>
 
-        <h3>Įvesti naują šalį</h3>
-
-    <form id="padding" action="/country/create" method="post">
+    <form action="/country/create" method="post">
         {{ csrf_field() }}
 
         <div class="col-lg-3">
